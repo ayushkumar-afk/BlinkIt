@@ -27,9 +27,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             BlinkItTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                   bestsellercategories(Modifier.padding(innerPadding))
+                 //  bestsellercategories(Modifier.padding(innerPadding))
                   // bottomnavigation(Modifier.padding(innerPadding))
-                  //  BlinkitProfileScreen(Modifier.padding(innerPadding))
+                   BlinkitProfileScreen(Modifier.padding(innerPadding))
                 }
             }
         }
